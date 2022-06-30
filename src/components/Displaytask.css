@@ -1,0 +1,60 @@
+.high-line{
+    border-right: 10px solid red;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 50px;
+}
+.medium-line{
+
+    border-right: 10px solid green;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 50px;
+
+
+}
+.low-line{
+
+    border-right: 10px solid blue;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 50px;
+
+
+}
+.highLine{
+    width:300px;
+    border: 2px solid red;
+    display: flex;
+    margin-right: 5%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.MediumLine{
+    width:300px;
+    border: 2px solid green;
+    display: flex;
+    margin-right: 5%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.LowLine{
+    width:300px;
+    border: 2px solid blue;
+    display: flex;
+    margin-right: 5%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.taskName{
+    width: 200px;
+}
+
+.taskDate{
+
+    width: 50px;
+}

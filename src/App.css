@@ -1,0 +1,91 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.to-do{
+  font-size: 35px;
+  font-style:oblique;
+  padding-left: 20px;
+  text-decoration-line: underline;
+  background: linear-gradient(to bottom, #d1cdf3, #302b66, #222272);
+  color: white;
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 25px;
+  padding: 0 1rem;
+
+  margin-bottom: 2%;
+  
+}
+.task{
+  padding-left: 20px;
+}
+input{
+  width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+}
+button{
+  width: 20%;
+	height: 30px;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 5px;
+  margin-bottom: 5px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer
+}
+.display_container{
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  color: white;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  width: 50%;
+  border: #573b8a 1px solid;
+  border-radius: 25px;
+  justify-content: center;
+  width: 700px;
+  height: 900px;
+}
+.bttn:hover{
+	background: #6d44b8;
+}
+
+select{
+
+  border-radius: 25px;
+}
